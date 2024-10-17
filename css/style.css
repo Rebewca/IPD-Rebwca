@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 4px; /* Espaço interno embaixo  */
     letter-spacing: 1px; /* Espaço entre letras . */
     font-weight: 900; /*  Fonte bem negrito. */
-    border-bottom: 3px solid #ffffff; /* define uma borda na parte de baixo de um elemento. No exemplo: 3px → espessura da borda (3 pixels);
+    border-bottom: 3px solid #362a2a; /* define uma borda na parte de baixo de um elemento. No exemplo: 3px → espessura da borda (3 pixels);
     solid → estilo da borda (sólida, sem traços ou pontilhados);
     #ffffff → cor da borda (branca). */
 }
