@@ -195,12 +195,16 @@ h1, h2, h3, h4, h5, h6 {
 #hero p {
     color: #000000;
     margin-bottom: 50px;
+    font-weight: 900;
     font-size: 26px;
     font-family: sans-serif;
     }
 #hero p span {
     color: #000000;
-    padding-bottom: 4px;
-    letter-spacing: 1px;
-    border-bottom: 3px solid #ffffff;
+    padding-bottom: 4px; /* Espaço interno embaixo  */
+    letter-spacing: 1px; /* Espaço entre letras . */
+    font-weight: 900; /*  Fonte bem negrito. */
+    border-bottom: 3px solid #ffffff; /* define uma borda na parte de baixo de um elemento. No exemplo: 3px → espessura da borda (3 pixels);
+    solid → estilo da borda (sólida, sem traços ou pontilhados);
+    #ffffff → cor da borda (branca). */
 }
