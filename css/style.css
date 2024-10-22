@@ -208,3 +208,74 @@ h1, h2, h3, h4, h5, h6 {
     solid → estilo da borda (sólida, sem traços ou pontilhados);
     #ffffff → cor da borda (branca). */
 }
+@media(min-width: 1024px) /* Esse código define que as regras dentro desse bloco só serão aplicadas se a largura da tela for igual ou maior que 1024 pixels. Isso é útil para criar layouts responsivos, ajustando o estilo com base no tamanho da tela, como em desktops, tablets grandes, etc. */ {
+    #hero {
+        background-attachment: fixed; /* Essa propriedade define o comportamento de rolagem do plano de fundo do elemento. Quando o valor é fixed, o plano de fundo fica fixo em relação à janela de visualização (viewport), ou seja, ele não se move quando a página é rolada. */
+    }
+}
+@media(max-width:768px) {
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    #hero h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+ /* secões geral */
+
+section{
+    padding: 60px 0;
+    overflow: hidden;
+}
+.section-bg{
+    background: #45596e;
+}
+.section-title{
+    padding-bottom: 30px;
+}
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.section-title h2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #9b889a;
+    bottom: 0;
+    left: 0;
+}
+.section-title p {
+    margin-bottom: 0;
+    color: aliceblue;
+    font-size:20px ;
+    font-family:"Rosarivo", cursive;
+
+}
+
+/* about */
+.about .content h3{
+    font-weight: 700;
+    font-size: 26px;
+    color: #6b849c;
+}
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+.about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
