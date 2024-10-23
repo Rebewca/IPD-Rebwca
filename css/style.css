@@ -279,3 +279,24 @@ section{
     display: flex;
     align-items: center;
 }
+.about .content ul strong{
+    margin-right: 10px;
+    color: #6b849c;
+    font-weight: 200;
+}
+.about .content ul span{
+    color: #ecdede;
+    font-family: "Rosarivo", cursive;
+    font-weight: 600;
+}
+.about .content p{
+    color: #160f16;
+    font-family: cursive;
+    font-weight: 600;
+}
+.about .content ul i{
+   font-size: 16px;
+   margin-right: 5px; 
+   color: #9b889a;
+   line-height: 0;
+}
